@@ -3,8 +3,103 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+* {
+  text-decoration: none;
+}
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background-color: white;
+}
+.top {
+  background-color: #4E7CA1;
+  height: 325px;
+  width: 100%;
+}
+header {
+  position: absolute;
+  top: 17%;
+  left: 48%;
+}
+  #logos {
+  display: inline;
+  padding: 10px;
+}
+#logos li a img {
+  padding-right: 0;
+}
+li button {
+  width: 100px;
+  height: 55px;
+  position: absolute;
+  top: 19%;
+  left: 100%;
+  margin-left: 40px;
+  padding-right: 15px;
+  background-color: #4E7CA1;
+  border-radius: 5px;
+}
+span {
+  margin: 0 auto;
+  font-size: 17px;
+  color: white;
+  padding-left: 3px;
+}
+button {
+  margin-bottom: 25px;
+}
+#container {
+  background-image: url("/Users/sully1313/Documents/wdi-dump/instagram/m4-css-lab/starter-code/images/frame.png");
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  opacity: .95;
+  position: absolute;
+  left: 45%;
+  top: 250px;
+  width: 400px;
+  margin-left: 100px;
+  margin-bottom: 5px;
+}
+h3 {
+  color: #4E7CA1;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+ p {
+  font-family: sans-serif, arial;
+  font-size: 17px;
+  color: black;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 25px;
+}
+#phone {
+  position: absolute;
+  top: 130px;
+  left: 370px;
+  padding-right: 60px;
+}
+.app {
+  position: absolute;
+  left: 54%;
+  bottom: 189px;
+}
+.app a img {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+footer {
+  display: inline;
+  position: absolute;
+  bottom: 10px;
+  left: 415px;
+  width: 60%;
+}
+ul li {
+  display: inline;
+  padding-right: 20px;
+  color: #4E7CA1;
+}
+footer a {
+  text-decoration: none;
 }
